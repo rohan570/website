@@ -1,0 +1,127 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p style="text-align: center">
+      <img src="logo2.jpg" width="250" height="250" alt="Logo" />
+    </p>
+    <h1>ELECTRONIC STORE</h1>
+    <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#my orders">My Orders</a>
+      <a href="#contact">Contact</a>
+      <a href="#wishlist">Wishlist</a>
+      <a href="#about">About</a>
+      <div class="searchbox">
+        <input
+          id="searchbar"
+          onkeyup="search()"
+          type="text"
+          name="search"
+          placeholder="Search.."
+        />
+        <button>search</button>
+      </div>
+    </div>
+    <br /><br />
+    <button class="button button1">laptops</button>
+    <button class="button button2">led</button>
+    <button class="button button3">cctv</button>
+    <button class="button button4">remotes</button>
+    <button class="button button5">A.c's</button>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">Laptops</a>
+      <ol>
+        <li style="color: blue">asus</li>
+        <li style="color: blue">acer</li>
+        <li style="color: blue">hp</li>
+        <li style="color: blue">mac book</li>
+      </ol>
+      <br /><br />
+      <a href="#">CCTV</a>
+      <ul>
+        <li style="color: blue">cp plus</li>
+        <li style="color: blue">hikvision</li>
+        <li style="color: blue">dahua</li>
+        <li style="color: blue">mastel</li>
+      </ul>
+      <a href="#">Led</a>
+      <ol>
+        <li style="color: blue">Samsung ultra hd</li>
+        <li style="color: blue">Sony Qled</li>
+        <li style="color: blue">Aiwa 4k</li>
+      </ol>
+      <a href="#">Mobiles</a>
+      <ul>
+        <li style="color: blue">One plus</li>
+        <li style="color: blue">Samsung</li>
+        <li style="color: blue">Xiaomi</li>
+        <li style="color: blue">honor</li>
+        <li style="color: blue">Oppo</li>
+      </ul>
+    </div>
+    <br /><br />
+    <p style="font-size: 30px; cursor: pointer" onclick="openNav()">
+      &#9776; products
+    </p>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <div class="containers">
+      <div class="container">
+        <img class="photo" src="asus.jpg" />
+        <img class="photo" src="asus gaming.jpg" />
+        <img class="photo" src="dell.jpg" />
+        <img class="photo" src="hp.jpg" />
+      </div>
+      <div class="container">
+        <img class="photo" src="samsung55.jpg" />
+        <img class="photo" src="panasonic.jpg" />
+        <img class="photo" src="tcl.jpg" />
+        <img class="photo" src="tcl32.jpg" />
+      </div>
+      <div class="container">
+        <img class="photo" src="cp plus.jpg" />
+        <img class="photo" src="cctv.jpg" />
+        <img class="photo" src="hikvision.jpg" />
+        <img class="photo" src="honeywell.jpg" />
+      </div>
+      <div class="container">
+        <img class="photo" src="apple12.jpg" />
+        <img class="photo" src="oneplusnord.jpg" />
+        <img class="photo" src="samsung.jpg" />
+        <img class="photo" src="redmi.jpg" />
+      </div>
+      <div class="container">
+        <img class="photo" src="voltas.jpg" />
+        <img class="photo" src="lg.jpg" />
+        <img class="photo" src="lloyd.jpg" />
+        <img class="photo" src="blue-star.jpg" />
+      </div>
+      <div class="main">
+      </div>
+        <div class="information">
+          <div class="circle"></div>
+            <div class="features"></div>
+            <div class="features"></div>
+            <div class="features"></div>
+            <div class="features"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
