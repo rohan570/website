@@ -12,7 +12,7 @@ const displayProductPage = ({ name, description, price, features, image }) => {
             <p class="product-title">${name}</p>
             <div class="product-body">
                 <div class="product-image-body">
-                    <img class="product-image" src="${image}" alt="${name}" />
+                    <img class="product-image" src="./images/${image}" alt="${name}" />
                 </div>
                 <div class="product-text">
                     <div class="product-description">
@@ -40,34 +40,34 @@ const displayHome = () => {
   productDiv.innerHTML = "";
   containers.innerHTML = `
     <div class="container">
-        <img class="photo" src="asus VivoBook.jpg" />
-        <img class="photo" src="asus gaming.jpg" />
-        <img class="photo" src="dell.jpg" />
-        <img class="photo" src="hp.jpg" />
+        <img class="photo" src="./images/asus-vivoBook.jpg" />
+        <img class="photo" src="./images/asus-gaming.jpg" />
+        <img class="photo" src="./images/dell.jpg" />
+        <img class="photo" src="./images/hp.jpg" />
       </div>
       <div class="container">
-        <img class="photo" src="samsung55.jpg" />
-        <img class="photo" src="panasonic.jpg" />
-        <img class="photo" src="tcl.jpg" />
-        <img class="photo" src="tcl32.jpg" />
+        <img class="photo" src="./images/samsung55.jpg" />
+        <img class="photo" src="./images/panasonic.jpg" />
+        <img class="photo" src="./images/tcl.jpg" />
+        <img class="photo" src="./images/tcl32.jpg" />
       </div>
       <div class="container">
-        <img class="photo" src="cp plus.jpg" />
-        <img class="photo" src="cctv.jpg" />
-        <img class="photo" src="hikvision.jpg" />
-        <img class="photo" src="honeywell.jpg" />
+        <img class="photo" src="./images/cp plus.jpg" />
+        <img class="photo" src="./images/cctv.jpg" />
+        <img class="photo" src="./images/hikvision.jpg" />
+        <img class="photo" src="./images/honeywell.jpg" />
       </div>
       <div class="container">
-        <img class="photo" src="apple12.jpg" />
-        <img class="photo" src="oneplusnord.jpg" />
-        <img class="photo" src="samsung.jpg" />
-        <img class="photo" src="redmi.jpg" />
+        <img class="photo" src="./images/apple12.jpg" />
+        <img class="photo" src="./images/oneplusnord.jpg" />
+        <img class="photo" src="./images/samsung.jpg" />
+        <img class="photo" src="./images/redmi.jpg" />
       </div>
       <div class="container">
-        <img class="photo" src="voltas.jpg" />
-        <img class="photo" src="lg.jpg" />
-        <img class="photo" src="lloyd.jpg" />
-        <img class="photo" src="blue-star.jpg" />
+        <img class="photo" src="./images/voltas.jpg" />
+        <img class="photo" src="./images/lg.jpg" />
+        <img class="photo" src="./images/lloyd.jpg" />
+        <img class="photo" src="./images/blue-star.jpg" />
       </div>
       <div class="main">
       </div>

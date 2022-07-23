@@ -10,7 +10,7 @@ const laptops = [
       "Microsoft Office",
       "no optical disk drive",
     ],
-    image: "asus gaming.jpg",
+    image: "asus-gaming.jpg",
   },
   {
     name: "Acer",
@@ -18,7 +18,7 @@ const laptops = [
       "Acer aspire 7 core i5 10th gen-(8gb/512gb SSD/Windows 10 Home/4GB Graphic card/,15.6inch,black,2.15kg)",
     price: "49,000",
     features: ["15.6inch full hd display", "nvidea 4gb"],
-    image: "asus VivoBook.jpg",
+    image: "asus-vivoBook.jpg",
   },
   {
     name: "HP pavilion",
@@ -39,6 +39,6 @@ const laptops = [
       "1.29kg",
       "No optical disk drive",
     ],
-    image: "dell.jpg",
+    image: "macbook.jpeg",
   },
 ];
