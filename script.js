@@ -39,7 +39,7 @@ const displayHome = () => {
   const productDiv = document.querySelector("#product-div");
   productDiv.innerHTML = "";
   containers.innerHTML = `
-    <div class="container">
+      <div class="container">
         <img class="photo" src="./images/asus-vivoBook.jpg" />
         <img class="photo" src="./images/asus-gaming.jpg" />
         <img class="photo" src="./images/dell.jpg" />
@@ -68,17 +68,6 @@ const displayHome = () => {
         <img class="photo" src="./images/lg.jpg" />
         <img class="photo" src="./images/lloyd.jpg" />
         <img class="photo" src="./images/blue-star.jpg" />
-      </div>
-      <div class="main">
-      </div>
-        <div class="information">
-          <div class="circle"></div>
-            <div class="features"></div>
-            <div class="features"></div>
-            <div class="features"></div>
-            <div class="features"></div>
-          </div>
-        </div>
       </div>
       `;
 };
