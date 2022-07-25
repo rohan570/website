@@ -6,11 +6,9 @@
     <title>Electronic Store</title>
     <script src="./laptops.js"></script>
     <script src="./script.js"></script>
+    <script src="./led.js"></script>
   </head>
   <body>
-    <p style="text-align: center">
-      <img src="logo2.jpg" width="250" height="250" alt="Logo" />
-    </p>
     <h1>ELECTRONIC STORE</h1>
     <div class="topnav">
       <a class="active" href="#home" onclick="displayHome()">Home</a>
@@ -59,9 +57,81 @@
         </div>
       </div>
     </button>
-    <button class="button button2">led</button>
-    <button class="button button3">cctv</button>
-    <button class="button button4">remotes</button>
+    <button class="button button2 laptop-dropdown">
+      led
+      <div class="laptop-dropdown-content">
+        <div class="laptop-dropdown-item" onclick="displayProductPage(led[0])">
+          aiwa
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProdeuctPage(led[1])">
+          panasonic
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProductPage(led[2])">
+          tcl
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProdeuctPage(led[3])">
+          samsung55
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProdeuctPage(led[4])"
+        ></div>
+      </div>
+    </button>
+    <button class="button button3 laptop-dropdown">
+      CCTV
+      <div class="laptop-dropdown-content">
+        <div class="laptop-dropdown-item" onclick="displayProductPage(cctv[0])">
+          cp plus
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProductPage(cctv[1])">
+          mastell
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProductPage(cctv[2])">
+          hikvision
+        </div>
+        <div class="laptop-dropdown-item" onclick="displayProductPage(cctv[3])">
+          honeywell
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(cctv[4])"
+        ></div>
+      </div>
+    </button>
+    <button class="button button4 laptop-dropdown">
+      Mobiles
+      <div class="laptop-dropdown-content">
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(Mobiles[0])"
+        >
+          Oneplus
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(Mobiles[1])"
+        >
+          Samsung
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(Mobiles[2])"
+        >
+          honor
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(Mobiles[3])"
+        >
+          Xiaomi
+        </div>
+        <div
+          class="laptop-dropdown-item"
+          onclick="displayProductPage(Mobiles[4])"
+        ></div>
+      </div>
+    </button>
     <button class="button button5">A.c's</button>
 
     <div id="mySidenav" class="sidenav">

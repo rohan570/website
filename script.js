@@ -2,10 +2,10 @@ const displayProductPage = ({ name, description, price, features, image }) => {
   const containers = document.querySelector(".containers");
   const productDiv = document.querySelector("#product-div");
   features = features.map(
-    (feature) => `<div class="product-feature">${feature}</div>`
+    (features) => `<div class="product-features">${features}}</div>`
   );
   let featuresHtml = "";
-  features.forEach((feature) => (featuresHtml += feature));
+  features.forEach((features) => (featuresHtml += features));
   containers.innerHTML = "";
   productDiv.innerHTML = `
         <div class="product-div">
@@ -23,7 +23,7 @@ const displayProductPage = ({ name, description, price, features, image }) => {
                         Price: <span>${price}<span>
                     </div>
                     <div class="product-features">
-                        <h3>Features</h3>
+                        <h3>features</h3>
                         <div class="product-features-list">
                             ${featuresHtml}
                         </div>
@@ -38,7 +38,7 @@ const displayHome = () => {
   const containers = document.querySelector(".containers");
   const productDiv = document.querySelector("#product-div");
   productDiv.innerHTML = "";
-  containers.innerHTML = `
+  containers.innerHTML = `;
       <div class="container">
         <img class="photo" src="./images/asus-vivoBook.jpg" />
         <img class="photo" src="./images/asus-gaming.jpg" />
@@ -46,14 +46,14 @@ const displayHome = () => {
         <img class="photo" src="./images/hp.jpg" />
       </div>
       <div class="container">
-        <img class="photo" src="./images/samsung55.jpg" />
+        <img class="photo" src="./images/aiwa.jpg" />
         <img class="photo" src="./images/panasonic.jpg" />
         <img class="photo" src="./images/tcl.jpg" />
-        <img class="photo" src="./images/tcl32.jpg" />
+        <img class="photo" src="./images/samsung55.jpg" />
       </div>
       <div class="container">
         <img class="photo" src="./images/cp plus.jpg" />
-        <img class="photo" src="./images/cctv.jpg" />
+        <img class="photo" src="./images/mastell.jpg" />
         <img class="photo" src="./images/hikvision.jpg" />
         <img class="photo" src="./images/honeywell.jpg" />
       </div>
