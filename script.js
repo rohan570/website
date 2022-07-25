@@ -2,7 +2,7 @@ const displayProductPage = ({ name, description, price, features, image }) => {
   const containers = document.querySelector(".containers");
   const productDiv = document.querySelector("#product-div");
   features = features.map(
-    (features) => `<div class="product-features">${features}}</div>`
+    (features) => `<div class="product-features">${features} </div>`
   );
   let featuresHtml = "";
   features.forEach((features) => (featuresHtml += features));
